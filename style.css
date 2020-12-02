@@ -7,3 +7,28 @@ body{
  width: 100px;
  height: 100px;
 }
+
+.cat2{
+    width: 40px;
+    height: 40px;
+   }
+.cat3{
+    width: 50px;
+    height: 50px;
+   }
+.cat4{
+    width: 100px;
+    height: 100px;
+   }
+.cat5{
+    width: 100px;
+    height: 100px;
+   }
+   /* define uma transformação que redimensiona um elemento 2D */
+.ladoA{
+    transform:  scaleX(1);
+} 
+
+.ladoB{
+    transform:  scaleX(-1);
+}  
