@@ -5,13 +5,22 @@ E agora? Será que você consegue sobreviver a esse ataque de felinos?
 WHO IS THE DEVIL? ME**OW**
 
 ## 🚀 Começando
-
-## 📦 Desenvolvimento
+Teve ínicio baseado na metodologia ágil, fazendo o registro das atividades usando o MIRO.
+<br></br>
 
 ## 🛠️ Construído com
-
-## 📌 Versão
+Puramente com Javascript, HTML e CSS.
 
 ## ✒️ Autores
+ideia - Eduardo Lemes
+<br></br>
+Preparativos - Eduardo Lemes
+<br></br>
+Programação - Eduardo Lemes
+<br></br>
+Testes - Eduardo Lemes
+<br></br>
 
 ## 🎁 Expressões de gratidão
+Gabriel Sicuto
+Daniel DK Albanez
