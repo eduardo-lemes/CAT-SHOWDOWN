@@ -2,20 +2,55 @@
 <html>
     <head>
         <title></title>
-            <link rel="stylesheet" href="style.css"></link>
-            <script src="jogo.js"></script>
-<!--chamando função para ajuste de tela no onresize do body.-->
-<body onresize="adjustScreen()">
-    
-    
-     <script>
-        // colocando interval chamando função e posicao random
-         setInterval(function(){
-             posicaoRandom()
-         }, 1000)
-     </script>
-    
-</body>
+        <!-- CSS only -->
+        <meta charset="UTF-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="../style.css" />
+        <script>
+            //função para pegar o nível selecionado, value
+            function iniciarJogo(){
 
+            let nivel = document.getElementById('nivel').value
+            if(nivel === ''){
+                alert('Selecione o nível');
+                return false
+            }
+            window.location.href = "app.html?" + nivel //?para separar página dos parametros para informar o níviel na URL
+}
+
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="gameovertela">
+                        <img class="catover" src="images/tela_inicial.png">
+                    </div>
+                </div>
+            </div>
+
+            
+                <div class="row">
+                    <div class="col">
+                        <div class="d-flex justify-content-center">
+                            <div class="mb-2">
+                            <select class="form-control" id="nivel">
+                                <option value="">--Selecione a Dificuldade--</option>
+                                <option value="normal">Normal</option>
+                                <option value="Dificil">Difícil</option>
+                                <option value="impossivel">Impossível</option>
+                            </select>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <button type ="button" class="btn btn-danger btn-lg" onclick="iniciarJogo()" >Iniciar  Caçada
+                <div></div>
+              </button>
+            
+        </div>            
+    </body>
 
 </html>

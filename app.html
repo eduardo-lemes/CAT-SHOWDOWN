@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+            <link rel="stylesheet" href="style.css"></link>
+            <script src="jogo.js"></script>
+            
+<!--chamando função para ajuste de tela no onresize do body.-->
+<body>
+    <div>
+
+        <div class="painel" >
+            <div class="vidas">
+                <img id="l1" src="images/vida2.png" width="130" height="110" />
+                <img id="l2" src="images/vida2.png" width="130" height="110"/>
+                <img id="l3" src="images/vida2.png" width="130" height="110"/>
+            </div>
+            <div class="temporizador">Tempo restante: <span id="cronometro"></span>
+                
+            </div>
+
+        </div>
+    </div>
+     <script>
+
+        document.getElementById('cronometro').innerHTML = tempo //incluindo de forma dinâmica, para o script ser interpretado criando a variavel tempo
+        // colocando interval chamando função e posicao random
+         let criaCat = setInterval(function(){
+             posicaoRandom()
+         }, criaCatTime)
+     </script>
+    
+</body>
+
+
+</html>
