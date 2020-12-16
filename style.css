@@ -1,5 +1,16 @@
+html{
+    cursor: url(images/mouse_skin.png) auto ;
+
+}
+
 body{
-    margin:0;
+   
+    background-image: url(images/wallpaper.jpg) ; 
+    background-repeat: no-repeat;
+    height: 100vh; 
+    overflow: hidden; 
+    margin: 0; 
+    padding: 0;
     
 }
 
@@ -9,20 +20,20 @@ body{
 }
 
 .cat2{
-    width: 40px;
-    height: 40px;
+    width: 150px;
+    height: 150px;
    }
 .cat3{
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
    }
 .cat4{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
    }
 .cat5{
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
    }
    /* define uma transformação que redimensiona um elemento 2D */
 .ladoA{
@@ -32,3 +43,49 @@ body{
 .ladoB{
     transform:  scaleX(-1);
 }  
+
+.painel{
+   
+    position: absolute;
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    left:0px;
+    bottom: 0px;
+    border-top: solid 1px #fff;
+    background-color: #fff;
+    opacity: 0.7;
+
+}
+.vidas{
+    float: left;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+.temporizador{
+    height: 300px;
+    width: 300px;
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.container{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+.catover{
+    height: 800px;
+    width: 800px;
+}
+
+
