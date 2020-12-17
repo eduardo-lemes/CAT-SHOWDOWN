@@ -22,5 +22,9 @@ Testes - Eduardo Lemes
 <br></br>
 
 ## 🎁 Expressões de gratidão
-Gabriel Sicuto
+Gabriel Sicuto<br></br>
 Daniel DK Albanez
+
+## Links
+Deploy: https://eduardo-lemes.github.io/CAT-SHOWDOWN/index.html<br></br>
+Apresentação: https://slides.com/eduardolemes/deck
